@@ -1,0 +1,148 @@
+.skip a{
+    position: absolute;
+    left: -10000px;
+    color: blue;
+}
+
+a:link {
+  color: #FFCB05;
+  text-decoration: underline;
+}
+
+a :hover{
+  text-decoration: underline;
+}
+.active {
+  color: black;
+  text-decoration: underline;
+}
+
+.skip a:focus{
+  left: 0; /* Position the link in the viewport when focused */
+  background-color: #FFCB05; /* Keep the background color */
+  color: black; /* Change text color when focused for visibility */
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #FFCB05;
+  }
+
+  nav a :hover{
+    text-decoration: underline;
+  }
+
+  .nav-list {
+    list-style-type: none; /* Remove bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Align list items in a row */
+    justify-content: center; /* Center the nav items */
+}
+
+/* Style each nav item */
+.nav-list li {
+    margin: 0; /* Remove default margins for cleaner alignment */
+}
+
+
+/* Style the links within nav items */
+.nav-list li a {
+    display: block; /* Ensure the entire li area is clickable */
+    color: #00274C; /* Link text color */
+    text-align: center; /* Center text */
+    padding: 14px 20px; /* Space inside each nav link */
+    text-decoration: none; /* Remove underlines */
+    transition: background-color 0.3s; /* Smooth hover effect transition */
+}
+
+.navibar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #FFCB05;
+}
+
+
+  .container{
+    display: grid;
+    grid-template-columns: 10%, 80%, 10%;
+  }
+
+  body{
+    background-color: #00274C;
+    color: white;
+  }
+
+  img{
+    display: flex;
+    border: 10px double #FFCB05;
+    margin: auto;
+    
+  }
+
+  figcaption
+  {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  p, h2, h3, ol, ul, section {
+    margin-bottom: 20px; /* Adds space after paragraphs, headings, and other sections */
+}
+
+footer a{
+color: #FFCB05;
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+}
+
+li a{
+  color:#FFCB05;
+}
+
+.center-text{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h3 a{
+  color:#FFCB05;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.centered-content {
+  margin: 0 auto; /* Center the content horizontally */
+  max-width: 600px; /* Set a maximum width for the container */
+  padding: 20px; /* Add some padding inside the container */
+  text-align: center; /* Align text to the left, change to 'center' if you prefer centered text */
+  border: 10px double #FFCB05;
+}
+/*.container {
+  margin-top: 70px; /* Adjust value: navbar height + desired space 
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}*/
+
+h1{
+  padding: 20px;    /* Optional: Additional padding for aesthetics */
+}
+
+div{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
